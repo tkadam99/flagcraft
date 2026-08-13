@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "concurrently -k -p \"[{name}]\" -c \"blue.bold,green.bold\" \"npm run dev --workspace=packages/backend\" \"npm run dev --workspace=packages/frontend\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
