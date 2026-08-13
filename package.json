@@ -1,0 +1,29 @@
+{
+  "name": "flagcraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FlagCraft is a high-throughput, enterprise-grade Feature Flag &amp; Experimentation Engine. Built with React 18, Node.js, and PostgreSQL, featuring sub-15ms in-memory rule evaluations, Server-Sent Events (SSE) real-time streaming, dynamic nested condition targeting, and full transactional audit logs.",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkadam99/flagcraft.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tkadam99/flagcraft/issues"
+  },
+  "homepage": "https://github.com/tkadam99/flagcraft#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.4",
+    "typescript": "^7.0.2"
+  }
+}
